@@ -24,6 +24,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # For authentication
 gem 'devise'
 
+gem 'bower-rails'
+
+gem 'faker'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -36,6 +40,9 @@ gem 'devise'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "rspec-rails", '~> 3.0'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 group :development do
